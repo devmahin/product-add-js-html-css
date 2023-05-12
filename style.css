@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+
+}
+
+
+.from{
+    width: 400px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.from h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.from input, .from textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.from button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
